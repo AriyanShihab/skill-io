@@ -23,10 +23,10 @@ const QuizCard = ({ quiz }) => {
   const { question } = quiz;
   const tagRemoved = question.substring(3).slice(0, -4);
   return (
-    <div className="m-2 border border-slate-200 border-opacity-20 rounded bg-gray-900 px-3 py-2 ">
-      <div className="flex justify-between">
+    <div className="m-3 border border-slate-200 border-opacity-20 rounded bg-gray-900 px-3 py-2 ">
+      <div className="flex justify-between items-start flex-col md:flex-row">
         <h1 className="text-cyan-200 text-xl mb-2">{tagRemoved}</h1>
-        <div className="flex justify-end gap-2">
+        <div className="flex justify-center items-center flex-col-reverse md:flex-row gap-2">
           {visibility ? (
             <p className="text-gray-200">
               {" "}
