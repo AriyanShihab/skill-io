@@ -44,7 +44,7 @@ const Home = () => {
 
       {/* topick Selection area */}
       <div className="bg-slate-900 p-4 pt-[100px] ">
-        <div className="md:w-3/4 mx-auto px-3">
+        <div className="md:w-3/4 mx-auto px-3 pb-16">
           <h2 className="font-bold text-3xl text-cyan-500 my-3">
             Select Topic
           </h2>
