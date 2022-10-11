@@ -16,10 +16,10 @@ const Stats = () => {
   return (
     <div className="bg-slate-900 text-white">
       <div className="md:w-3/4 w-full px-2 mx-auto h-screen  pt-16">
-        <h2 className="font-semibold text-cyan-500 px-4 py-2 rounded bg-gray-900 text-center text-2xl  border border-slate-200 border-opacity-20">
+        <h2 className="font-semibold text-cyan-500 px-4 py-2 rounded bg-gray-900 text-center text-2xl  border border-slate-200 border-opacity-20 mb-20">
           Here is The Chart of Total Question of Each Topic
         </h2>
-        <ResponsiveContainer width={"90%"} height="80%">
+        <ResponsiveContainer width={"100%"} height="40%">
           <AreaChart
             data={chartData}
             margin={{ top: 20, right: 30, left: 0, bottom: 0 }}
@@ -28,8 +28,12 @@ const Stats = () => {
             <YAxis />
             <CartesianGrid strokeDasharray="3 3" />
             <Tooltip
-              wrapperStyle={{ color: "#06b6d4" }}
-              contentStyle={{ color: "#06b6d4", background: "#0f172a" }}
+              wrapperStyle={{ color: "#0f172a" }}
+              contentStyle={{
+                color: "#06b6d4",
+                background: "#0f172a",
+                borderRadius: "4px",
+              }}
             />
 
             <Area
