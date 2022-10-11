@@ -6,6 +6,8 @@
 
 ## in this projest, we implement a little bit of lifting sate up tecnique to display count of write and wrong answers.
 
+# live website link : https://skill-io.netlify.app/
+
 <br>
 
 # Features
@@ -17,6 +19,8 @@
 
 * ## coustoms design 404 page
 
+* ## avoided "page not found" error on netlify after refresh webpage
+
 # Used Packages
 
 - ## react-router-dom (v6)
@@ -27,3 +31,8 @@
 # For Styling
 
 - ## tailwind CSS
+
+# Hosted on
+
+- ## Netlify
+- ## https://skill-io.netlify.app/ (live site hosted on netlify)
