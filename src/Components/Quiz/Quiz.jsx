@@ -51,7 +51,7 @@ const Quiz = () => {
               ))}
             </div>
           </div>
-          <div className="col-span-1 mt-20">
+          <div className="md:col-span-1 col-span-4 mt-20">
             <div className="bg-slate-800 p-2 m-1 border border-slate-200 border-opacity-20 rounded">
               <h2 className="text-xl font-bold text-cyan-500"> Quiz Count</h2>
 
