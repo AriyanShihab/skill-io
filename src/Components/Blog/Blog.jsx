@@ -36,7 +36,7 @@ const Blog = () => {
           to use context data in those componet
         </p>
       </div>
-      <div className="bg-slate-800 p-5 rounded border border-slate-200 border-opacity-20 md:w-3/4 mx-auto mt-4 ">
+      <div className="bg-slate-800 p-5 rounded border border-slate-200 border-opacity-20 md:w-3/4 mx-auto mt-4 mb-20  ">
         <h2 className="font-semibold text-xl text-cyan-500 my-3">
           what is useRef hooks ?
         </h2>
